@@ -1,0 +1,17 @@
+#override-semantic {
+  &.video-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .video-item {
+    &__image {
+      max-width: 150px;
+    }
+
+    &__description {
+
+    }
+  }
+}
